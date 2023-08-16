@@ -148,6 +148,7 @@ const Home: NextPage = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
+            </a>
         </div>
         <h1 className='sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900'>
           <div className='px-4 py-2 sm:mt-3 mt-8 w-full' />
