@@ -27,10 +27,10 @@ const Home: NextPage = () => {
   const t = useTranslations('Index')
   const locale = useLocale()
 
-  const [loading, setLoading] = useState(false)
-  const [chat, setChat] = useState(t('placeholder'))
-  const [api_key, setAPIKey] = useState('')
-  const [generatedChat, setGeneratedChat] = useState<String>('')
+  const [loading, setLoading] = useState(false);
+  const [chat, setChat] = useState("");
+  const [api_key, setAPIKey] = useState("")
+  const [generatedChat, setGeneratedChat] = useState<String>("");
 
   console.log('Streamed response: ', generatedChat)
   console.log('locale', locale)
@@ -175,6 +175,9 @@ const Home: NextPage = () => {
             onChange={(e) => setChat(e.target.value)}
             rows={4}
             className='w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-2'
+             placeholder={
+              t('placeholder')
+            }
           />
 
           {!loading && (
