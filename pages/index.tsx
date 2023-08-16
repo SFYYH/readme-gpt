@@ -148,6 +148,8 @@ const Home: NextPage = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
+            <Github />
+          <p>Star on GitHub</p>
             </a>
         </div>
         <h1 className='sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900'>
