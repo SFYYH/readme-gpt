@@ -144,7 +144,7 @@ const Home: NextPage = () => {
         <div className='flex items-center justify-center mb-5'>
           <a
             className='flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mr-3'
-            href='https://github.com/ycjcl868/readme-gpt'
+            href='https://github.com/SFYYH'
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -225,7 +225,7 @@ const Home: NextPage = () => {
               {t('privacyPolicy1')}
               <a
                 className='text-blue-200 hover:text-blue-400'
-                href='https://github.com/ycjcl868/readme-gpt/blob/main/privacy.md'
+                href='https://github.com/SFYYH'
                 target='_blank'
                 rel='noopener noreferrer'
               >
