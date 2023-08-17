@@ -9,7 +9,7 @@
     "openaiApiKeyPlaceholder": "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "step1": "简单描述一下你的项目简介",
     "helpPageLink": "(点击这里查看教程)",
-    "placeholder": "README GPT，一个可以帮你自动生成 Github README 的工具， 使用 Vercel 和 Next.js 构建",
+    "placeholder": "",
     "step2": "选择输出结果的形式。",
     "simplifierButton": "生成完整 README",
     "simplifiedContent": "生成的 README",
